@@ -1,11 +1,11 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react'
-import { PiShoppingCartBold } from "react-icons/pi";
+import { IoCartOutline } from "react-icons/io5";
 
 const CartWidget = () => {
   return (
     <Box m={2}>
-      <PiShoppingCartBold />
+      <IoCartOutline />
     </Box>
   )
 }

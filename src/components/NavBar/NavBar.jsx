@@ -14,7 +14,8 @@ import {
     Flex,
     Heading
   } from '@chakra-ui/react'
-  import { FcDown } from "react-icons/fc"
+  import { TiArrowDownOutline } from "react-icons/ti";
+
 
 const NavBar = () => {
   return (
@@ -27,7 +28,7 @@ const NavBar = () => {
         >
         <Heading fontSize={'xl'} m={2}>La Vinoteca</Heading>
         <Menu>
-            <MenuButton as={Button} rightIcon={<FcDown />}>
+            <MenuButton as={Button} rightIcon={<TiArrowDownOutline />}>
                 Sus Vinos
             </MenuButton>
             <MenuList>
